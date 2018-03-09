@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="etmmpigg" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="k2ag4x" name="MainScene.xml" path="/" exported="true"/>
+    <component id="k2ag4y" name="btn_image.xml" path="/" exported="true"/>
+    <component id="k2ag54" name="btn_bottom.xml" path="/" exported="true"/>
+    <component id="k2ag55" name="GameScene.xml" path="/" exported="true"/>
+    <image id="i8cp68" name="loading_run.png" path="/res/" exported="true"/>
+    <component id="ps4d69" name="toast.xml" path="/" exported="true"/>
+    <image id="ps4d6a" name="toast_bg.png" path="/res/" exported="true"/>
+    <image id="ps4d6c" name="bg.png" path="/res/" exported="true"/>
+    <image id="gze86d" name="car_0.png" path="/res/" exported="true"/>
+    <image id="gze86e" name="car_1.png" path="/res/" exported="true"/>
+    <image id="gze86f" name="person_0.png" path="/res/" exported="true"/>
+    <image id="gze86g" name="person_1.png" path="/res/" exported="true"/>
+    <image id="gze86h" name="person_2.png" path="/res/" exported="true"/>
+    <image id="gze86i" name="person_3.png" path="/res/" exported="true"/>
+    <image id="gze86j" name="person_4.png" path="/res/" exported="true"/>
+    <image id="gze86k" name="school_name.png" path="/res/" exported="true"/>
+    <image id="gze86o" name="studen_0.png" path="/res/" exported="true"/>
+    <image id="gze86p" name="btn_close.png" path="/res/" exported="true"/>
+    <image id="gze86q" name="commonBtn1_0.png" path="/res/" exported="true" scale="9grid" scale9grid="27,10,54,20"/>
+    <image id="gze86r" name="item_frame.png" path="/res/" exported="true"/>
+    <image id="vir26t" name="line.png" path="/res/" exported="true" scale="9grid" scale9grid="205,10,410,20"/>
+    <image id="vir26u" name="school.jpg" path="/"/>
+    <image id="vir26w" name="control-flash.png" path="/res/" exported="true"/>
+    <component id="vir26x" name="Person.xml" path="/" exported="true"/>
+    <image id="vir271" name="person_5.png" path="/res/" exported="true"/>
+    <image id="vir272" name="person_6.png" path="/res/" exported="true"/>
+    <image id="vir275" name="person_7.png" path="/res/" exported="true"/>
+    <image id="vir276" name="gameOver.png" path="/res/"/>
+  </resources>
+  <publish name="common"/>
+</packageDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1136,640" opaque="false" designImage="ui://etmmpiggvir26u" bgColorEnabled="true" bgColor="#000000">
+  <controller name="ctrl_bottom" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <loader id="n103_gze8" name="img_bg" xy="0,0" size="1136,640">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n105_vir2" name="n105" src="gze86o" xy="350,409" size="43,104">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <image id="n107_vir2" name="img_line" src="vir26t" xy="395,476" size="258,15">
+      <relation target="n105_vir2" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <component id="n108_vir2" name="btn_line" src="k2ag4y" xy="1002,482">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://etmmpiggvir26w"/>
+    </component>
+    <richtext id="n112_vir2" name="lbl_score" xy="926,403" size="118,33" font="华文琥珀" fontSize="27" align="center" vAlign="middle" ubb="true" autoSize="none" text="生命：10">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </richtext>
+    <image id="n113_vir2" name="n113" src="vir276" xy="437,-156"/>
+    <component id="n114_vir2" name="btn_restart" src="k2ag4y" xy="485,690" size="166,63">
+      <Button title="重 新 开 始" titleFontSize="26" icon="ui://etmmpigggze86q"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Size" target="n107_vir2" tween="true" startValue="258,15" endValue="93,15" duration="11"/>
+  </transition>
+  <transition name="t1"/>
+  <transition name="t2"/>
+  <transition name="t3">
+    <item time="0" type="XY" target="n114_vir2" tween="true" startValue="485,690.07" endValue="485,380.07" duration="30"/>
+    <item time="0" type="XY" target="n113_vir2" tween="true" startValue="437,-156.85" endValue="437,223.15" duration="30"/>
+  </transition>
+</component>

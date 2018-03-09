@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1136,640" margin="2,0,0,0" bgColorEnabled="true" bgColor="#333333">
+  <displayList>
+    <image id="n17_ps4d" name="n17" src="ps4d6c" xy="0,0" size="1136,640"/>
+    <component id="n16_ps4d" name="btn_loading" src="k2ag4y" xy="483,463" size="166,63">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="开 始 游 戏" titleFontSize="26" icon="ui://etmmpigggze86q" selectedIcon="ui://etmmpigggze86q"/>
+    </component>
+    <text id="n18_gze8" name="n18" xy="400,228" size="338,49" font="华文中宋" fontSize="40" align="center" vAlign="middle" autoSize="none" bold="true" text="看谁敢逃课小游戏">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n19_gze8" name="n19" src="gze86k" xy="269,24">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n21_vir2" name="n21" xy="772,230" size="349,113" font="仿宋" fontSize="30" autoSize="none" bold="true" text="游戏规则：阻止这3个学渣逃出校园(学渣做错了什么...)">
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <image id="n22_vir2" name="n22" src="vir272" xy="814,343" group="n25_vir2"/>
+    <image id="n23_vir2" name="n23" src="vir275" xy="921,343" group="n25_vir2"/>
+    <image id="n24_vir2" name="n24" src="vir271" xy="1031,343" group="n25_vir2"/>
+    <group id="n25_vir2" name="n25" xy="814,343" size="268,162" advanced="true">
+      <relation target="" sidePair="top-top,right-right"/>
+    </group>
+  </displayList>
+</component>

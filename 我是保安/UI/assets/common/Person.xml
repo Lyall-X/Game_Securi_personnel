@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1136,640" opaque="false" designImage="ui://etmmpiggvir26u" bgColorEnabled="true" bgColor="#000000">
+  <controller name="ctrl_bottom" pages="0,,1,,2,,3," selected="2"/>
+  <displayList>
+    <loader id="n109_vir2" name="img_d" xy="-53,576" pivot="0.5,0.5" anchor="true" size="54,103" aspect="true" skew="-90,-90" url="ui://etmmpigggze86d" fill="scaleFree"/>
+    <loader id="n112_vir2" name="img_u" xy="893,-114" pivot="0.5,0.5" anchor="true" size="54,103" aspect="true" url="ui://etmmpigggze86d" fill="scaleFree"/>
+  </displayList>
+  <transition name="t0"/>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n109_vir2" tween="true" startValue="1" endValue="1" duration="52"/>
+    <item time="0" type="Rotation" target="n109_vir2" tween="true" startValue="0" endValue="0" duration="48"/>
+    <item time="0" type="XY" target="n109_vir2" tween="true" startValue="-53,562" endValue="623,562" duration="48" label2="aa" ease="Linear"/>
+    <item time="48" type="Rotation" target="n109_vir2" tween="true" startValue="0" endValue="90" duration="4" ease="Linear"/>
+    <item time="48" type="XY" target="n109_vir2" label="aa" tween="true" startValue="623,562" endValue="623,162" duration="42" ease="Linear"/>
+    <item time="52" type="Alpha" target="n109_vir2" tween="true" startValue="1" endValue="0" duration="38" ease="Expo.In"/>
+    <item time="52" type="Rotation" target="n109_vir2" tween="true" startValue="90" endValue="90" duration="38"/>
+    <item time="90" type="Rotation" target="n109_vir2" tween="true" startValue="90" ease="Linear"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Alpha" target="n109_vir2" tween="true" startValue="1" endValue="1" duration="52"/>
+    <item time="0" type="Rotation" target="n109_vir2" tween="true" startValue="0" endValue="0" duration="48"/>
+    <item time="0" type="XY" target="n109_vir2" tween="true" startValue="1204,562" endValue="623,562" duration="48" label2="aa" ease="Linear"/>
+    <item time="48" type="Rotation" target="n109_vir2" tween="true" startValue="0" endValue="90" duration="4" ease="Linear"/>
+    <item time="48" type="XY" target="n109_vir2" label="aa" tween="true" startValue="623,562" endValue="623,162" duration="42" ease="Linear"/>
+    <item time="52" type="Alpha" target="n109_vir2" tween="true" startValue="1" endValue="0" duration="38" ease="Expo.In"/>
+    <item time="52" type="Rotation" target="n109_vir2" tween="true" startValue="90" endValue="90" duration="38"/>
+  </transition>
+  <transition name="t3">
+    <item time="0" type="Alpha" target="n112_vir2" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="Rotation" target="n112_vir2" tween="true" startValue="0" endValue="0" duration="90"/>
+    <item time="0" type="XY" target="n112_vir2" tween="true" startValue="557,124" endValue="557,617" duration="90"/>
+    <item time="90" type="Rotation" target="n112_vir2" tween="true" startValue="0" endValue="-90" duration="4"/>
+    <item time="108" type="XY" target="n112_vir2" tween="true" startValue="557,617" endValue="1196,617" duration="50" ease="Linear"/>
+  </transition>
+  <transition name="t4">
+    <item time="0" type="Alpha" target="n112_vir2" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="0" type="Rotation" target="n112_vir2" tween="true" startValue="0" endValue="0" duration="90"/>
+    <item time="0" type="XY" target="n112_vir2" tween="true" startValue="557,124" endValue="557,617" duration="90"/>
+    <item time="94" type="Rotation" target="n112_vir2" value="90"/>
+    <item time="94" type="XY" target="n112_vir2" tween="true" startValue="557,617" endValue="-56,617" duration="44" ease="Linear"/>
+  </transition>
+</component>
